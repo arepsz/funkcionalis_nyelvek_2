@@ -16,3 +16,10 @@ The other is a parallel any function, which starts as many processesses as there
 The warehouse and taskfarm tasks were about distributed programming, although the taskfarm was not finished.
 In the warehouse task, a drug cartel is simulated. The bad guys arrive, the guards spot them and catch them, or they get away, etc.
 
+### Server-Client
+Well it's basically a sequential thing, but it's a server-client chat "application". (In the chat folder)
+- Start it with name if you run both on the same computer (-sname server@gepnev)
+- Local registered name -- global name ({chatsrv, 'server@gepnev'})
+
+- Running on differenc computers: run it with name and ip (-name server@157.181.161.25)
+- Same cookie (erlang:set_cookie(node(), alma) or -setcookie something)
